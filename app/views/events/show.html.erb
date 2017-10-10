@@ -22,6 +22,11 @@
       <li><%= @event.includes_food ? ("Food Included").html_safe : "No food" %></li>
     </ul>
 
+    <h4>Categories</h4>
+    <% @categories.each do |category| %>
+      <span class="label label-success"><%= category.name %></span>
+    <% end %>
+
   </div>
 
 </div>
