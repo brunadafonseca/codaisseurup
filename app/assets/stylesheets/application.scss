@@ -1,2 +1,27 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.pics {
+  height: 220px;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  margin-bottom: 20px;
+  padding-left: 15px;
+}
+
+.jumbotron {
+  background-image: url('https://images.unsplash.com/photo-1485182708500-e8f1f318ba72?dpr=1&auto=compress,format&fit=crop&w=1570&h=&q=80&cs=tinysrgb&crop=');
+  background-size: cover;
+  width: 100%;
+  position: relative;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
