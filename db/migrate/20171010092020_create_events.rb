@@ -7,8 +7,7 @@ class CreateEvents < ActiveRecord::Migration[5.1]
       t.decimal :price
       t.integer :capacity
       t.boolean :includes_food
-      t.string :includes_drinks
-      t.string :boolean
+      t.boolean :includes_drinks
       t.datetime :starts_at
       t.datetime :ends_at
       t.boolean :active
