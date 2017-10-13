@@ -59,7 +59,7 @@ class EventsController < ApplicationController
     params
       .require(:event)
       .permit(
-        :name, :capacity, :description, :location, :includes_food, :includes_drinks, :price, :active, category_ids: []
+        :name, :capacity, :description, :location, :includes_food, :includes_drinks, :starts_at, :ends_at, :price, :active, category_ids: []
       )
   end
 

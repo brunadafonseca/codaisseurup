@@ -15,6 +15,9 @@
     <%= f.text_field :location, placeholder: "Address", class: "form-control" %>
   </div>
 
+  <%= f.date_select(:starts_at, order: [:day, :month]) %>
+  <%= f.date_select(:ends_at, order: [:day, :month]) %>
+
   <div class="form-group">
     <label>Capacity</label>
     <%= f.number_field :capacity, placeholder: "Capacity", class: "form-control" %>
