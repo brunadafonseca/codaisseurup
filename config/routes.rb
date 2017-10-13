@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   resources :events, except: [:destroy]
   resources :profiles
   resources :photos
+  resources :bookings
 end
